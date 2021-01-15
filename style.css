@@ -1,0 +1,65 @@
+body{
+	background-color: #fb9714;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: -50px;
+}
+h1{
+	font-family: Brush Script MT;
+	font-size: 5em;
+	color: #fff;
+}
+input{
+	color: #fff;
+	border-radius: 25px;
+	padding-left: 15px;
+	margin: 3px;
+	font-size: 20px;
+	background-color: red;
+	font-family: Comic Sans MS;
+	
+	width: 200px;
+	height: 30px;
+	border-style: outset;
+}
+input:focus{
+	border-color:dodgerBlue;
+	boxs-shadow:0 0 8px 0 dodgerBlue;
+	border-style: inset;
+}
+p[id=registerlink]{
+	border: none;
+	background: none;
+	margin-top: 2px;
+	color: blue;
+	font-size: 15px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+button{
+	background-color: green;
+	color: #fff;
+	margin-top: 5px;
+	border-radius: 15px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	
+	width: 100px;
+	height: 30px;
+}
+div[id=eye]{
+	position: absolute;
+	top: 80.5%;
+	right: 6%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+	background: url(eye.png);
+	background-size: cover;
+	cursor: pointer;
+}
