@@ -1,0 +1,76 @@
+body{
+	background-color: #fb9714;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+h1{
+	font-family: Brush Script MT;
+	font-size: 100px;
+	color: gray;
+	margin: 15px;
+}
+img{
+	width: 180px;
+	margin-bottom: 10px;
+}
+input{
+	color: #fff;
+	border-radius: 25px;
+	padding-left: 15px;
+	margin: 3px;
+	font-size: 28px;
+	background-color: red;
+	font-family: Comic Sans MS;
+	
+	width: 290px;
+	height: 45px;
+	border-style: outset;
+}
+input:focus{
+	border-color:dodgerBlue;
+	boxs-shadow:0 0 8px 0 dodgerBlue;
+	border-style: inset;
+}
+button{
+	background-color: green;
+	color: #fff;
+	margin-top: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	cursor: pointer;
+	
+	width: 150px;
+	height: 40px;
+}
+p[id=registerlink]{
+	border: none;
+	background: none;
+	margin-top: 5px;
+	color: blue;
+	font-size: 18px;
+	cursor: pointer;
+}
+div[id=eye]{
+	position: absolute;
+	top: 74%;
+	right: 16%;
+	transform: translateY(-50%);
+	width: 25px;
+	height: 25px;
+	background: url(eye.png);
+	background-size: cover;
+	cursor: pointer;
+}
+div[id=back]{
+	background-color: #fff;
+	width: 400px;
+	height: 580px;
+	border-radius: 20px;
+	border-style: outset;
+}
