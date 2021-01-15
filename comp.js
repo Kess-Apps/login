@@ -38,7 +38,7 @@ function buttonClick(){
 			document.cookie = "login=true";
 			window.open("logedin.html","_self");
 		}else{
-			alert("Your Username or password is wrone!");
+			alert("Your Username or password is wronge!");
 			openLogin();
 		}
 	}
