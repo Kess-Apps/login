@@ -53,7 +53,9 @@ p[id=registerlink]{
 	background: none;
 	margin-top: 5px;
 	color: blue;
-	font-size: 18px;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	font-weight: bold;
 	cursor: pointer;
 }
 div[id=eye]{
