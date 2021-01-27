@@ -65,7 +65,6 @@ function openLogin(){
 	document.getElementById('registerlink').innerHTML = "Register";
 	document.getElementById('check').textContent = "Check";
 	document.getElementById('heading').textContent = "Login";
-	
-	document.getElementById('username').value = "";
+
 	document.getElementById('password').value = "";
 }
